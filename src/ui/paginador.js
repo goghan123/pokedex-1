@@ -23,7 +23,7 @@ export function manejarCambioPagina(e, callbackPaginaSeleccionada = () => {}) {
     callbackPaginaSeleccionada(numeroPagina);
   } else {
     callbackPaginaSeleccionada(href);
-  }
+  } 
 }
 
 export default function mostrarPaginador(
@@ -33,7 +33,7 @@ export default function mostrarPaginador(
   urlAnterior,
   callbackPaginaSeleccionada = () => {},
 ) {
-  const POKEMONES_POR_PAGINA = 20;
+  const POKEMONES_POR_PAGINA = 20;  
   const $paginador = document.querySelector('#paginador');
   $paginador.innerHTML = '';
 

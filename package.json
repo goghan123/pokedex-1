@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/r-argentina-programa/pokedex.git"
   },
-  "author": "",
+  "author": "fsodano",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/r-argentina-programa/pokedex/issues"
@@ -38,5 +38,9 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1"
+  },
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
   }
 }
